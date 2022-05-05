@@ -17,10 +17,10 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⚙️ 𝐒𝐎𝐔𝐑𝐂𝐄 𝐂𝐎𝐃𝐄", url=f"https://github.com/bhumiharsaurabh/katilmusicx")
+                        "", url=f"https://github.com/bhumiharsaurabh/katilmusicx")
                 ],[
-                    InlineKeyboardButton("📨 𝐆𝐑𝐎𝐔𝐏", url=f"https://t.me/full_masti_clubs"),
-                    InlineKeyboardButton("📨 𝐂𝐇𝐀𝐍𝐍𝐄𝐋", url=f"https://t.me/heartbrokenperson1")
+                    InlineKeyboardButton("", url=f"https://t.me/full_masti_clubs"),
+                    InlineKeyboardButton("", url=f"https://t.me/heartbrokenperson1")
                   ],
             ]
         ),

@@ -163,11 +163,11 @@ async def play(_, message: Message):
                 
                [
                     InlineKeyboardButton(
-                            text="📨𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
+                            text="",
                             url=f"https://t.me/heartbrokenp3erson1"),
                             
                     InlineKeyboardButton(
-                            text="📨𝐆𝐫𝐨𝐮𝐩⭐",
+                            text="",
                             url=f"https://t.me/FULL_MAS3TI_CLUBS")
                ],
                
@@ -207,11 +207,11 @@ async def play(_, message: Message):
                 
                [
                     InlineKeyboardButton(
-                            text="📨 𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
+                            text="",
                             url=f"https://t.me/HEARTBROKEN3PERSON1"),
                             
                     InlineKeyboardButton(
-                            text="📨 𝐆𝐫𝐨𝐮𝐩⭐",
+                            text="",
                             url=f"https://t.me/FULL_MAST3I_CLUBS")
                ],
                
@@ -220,7 +220,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/13fba0e9d76c406ae9ce2.jpg"
+            thumb_name = "https://telegra.ph/file/153087782510223747be6.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -228,11 +228,11 @@ async def play(_, message: Message):
                 
                [
                     InlineKeyboardButton(
-                            text="📨 𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
+                            text="",
                             url=f"https://t.me/HEARTBROKE3NPERSON1"),
                             
                     InlineKeyboardButton(
-                            text="📨 𝐆𝐫𝐨𝐮𝐩⭐",
+                            text="",
                             url=f"https://t.me/FULL_MAST3I_CLUBS")
                ],
                
@@ -287,11 +287,11 @@ async def play(_, message: Message):
                 
                [
                     InlineKeyboardButton(
-                            text="📨 𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
+                            text="",
                             url=f"https://t.me/HEARTBROK3ENPERSON1"),
                             
                     InlineKeyboardButton(
-                            text="📨 𝐆𝐫𝐨𝐮𝐩⭐",
+                            text="",
                             url=f"https://t.me/FULL_MAST3I_CLUBS")
                ],
                
@@ -331,7 +331,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption=f"**»▶️ 𝐍𝐎𝐖 𝐏𝐋𝐀𝐘𝐈𝐍𝐆 «**\n➡️ **𝐓𝐈𝐓𝐋𝐄​:** [{title[:65]}]({url})\n🕕 **𝐃𝐔𝐑𝐀𝐓𝐈𝐎𝐍:** `{duration}` 𝐌𝐈𝐍𝐔𝐓𝐄s\n🥀 **𝐑𝐄𝐐𝐔𝐄𝐒𝐓𝐄𝐃 𝐁𝐘​:** {message.from_user.mention}\n❤️ **𝐏𝐋𝐀𝐘𝐈𝐍𝐆 𝐈𝐍​:** `{message.chat.title}`\n🎥 **𝐒𝐓𝐑𝐄𝐀𝐌 𝐓𝐘𝐏𝐄:** 𝐘𝐎𝐔𝐓𝐔𝐁𝐄 𝐌𝐔𝐒𝐈𝐂\n **Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀...\n **𝗕𝘆 : @iam_your_heart4".format(
+            caption=f"**»▶️ 𝐍𝐎𝐖 𝐏𝐋𝐀𝐘𝐈𝐍𝐆 «**\n➡️ **𝐓𝐈𝐓𝐋𝐄​:** [{title[:65]}]({url})\n🕕 **𝐃𝐔𝐑𝐀𝐓𝐈𝐎𝐍:** `{duration}` 𝐌𝐈𝐍𝐔𝐓𝐄s\n🥀 **𝐑𝐄𝐐𝐔𝐄𝐒𝐓𝐄𝐃 𝐁𝐘​:** {message.from_user.mention}\n❤️ **𝐏𝐋𝐀𝐘𝐈𝐍𝐆 𝐈𝐍​:** `{message.chat.title}`\n🎥 **𝐒𝐓𝐑𝐄𝐀𝐌 𝐓𝐘𝐏𝐄:** 𝐘𝐎𝐔𝐓𝐔𝐁𝐄 𝐌𝐔𝐒𝐈𝐂\n **Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀...\n **𝗕𝘆 : BROKEN MR Z".format(
         message.chat.title
         ), )
 

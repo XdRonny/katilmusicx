@@ -1,4 +1,4 @@
-yt-dlp==2021.12.01
+yt-dlp==
 pyrogram==1.4.16
 TgCrypto
 py-tgcalls
